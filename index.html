@@ -15,6 +15,7 @@
         <img id="door" src="images/Door-Village.jpg">
         <img id="green_leaf" src="images/Green-leaves.jpg">
         <img id="daylight" src="images/P8iErUQ.jpg">
+        <img id="straw" src="images/starw-bales.jpg">
       </a-assets>
 
       <a-entity id="grass">
@@ -165,7 +166,7 @@
         <a-plane position="100 -1 -100" rotation="-90 0 0" width="20" height="20" src="#grass"></a-plane>
         <!-- 1st color="#ECECEC"  and 3rd quardrant!-->
       </a-entity>
-     
+
 
      <a-entity id="House" position="19.38 0 0">
        <!-- Roof Tin!-->
@@ -177,8 +178,7 @@
        <a-plane position="0 3.4 -10.05" rotation="0 0 -45" width="4" height="4" src="#house"></a-plane>
        <a-plane position="0 3.4 -20.05" rotation="0 0 -45" width="4" height="4" src="#house"></a-plane>
        <a-plane position="0 3.4 -20.05" rotation="180 0 -45" width="4" height="4" src="#house"></a-plane>
-       <a-box src="#house" width="5" height="7" depth="2.7"
-        position="0 0 -15" rotation="0 90 0" scale="2 1 2"></a-box>
+       <a-box src="#house" width="5" height="7" depth="2.7" position="0 0 -15" rotation="0 90 0" scale="2 1 2"></a-box>
 
         <!-- Window!-->
         <a-plane position="0 2.4 -9.9" rotation="0 0 0" width="1.5" height="2" src="#window"></a-plane>
@@ -214,6 +214,12 @@
       <a-sphere position="-3 8.00 -4.5" radius="1.6" src="#green_leaf"></a-sphere>
       <a-sphere position="2 9.66 -6" radius="2.6" src="#green_leaf"></a-sphere>
       <a-sphere position="-2 9.66 -6" radius="2.6" src="#green_leaf"></a-sphere>
+    </a-entity>
+
+    <a-entity id="straw bales" position="18.49 -4.58 -9.60">
+      <a-cone src="#straw" height="5" radius-bottom="3" radius-top="1.5" position="0 6 -15"></a-cone>
+      <a-sphere src="#straw" radius="1.53" position="0 8.24 -15"></a-sphere>
+      <a-cylinder src="#light_wood" color="#cc8800" height="0.90" radius="0.30" position="0 9.97 -15.00"></a-cylinder>
     </a-entity>
 
       <a-sky src="#daylight"></a-sky>
