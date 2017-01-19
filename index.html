@@ -2,7 +2,8 @@
 <html>
   <head>
     <title>Gram Bangla</title>
-    <script src="https://aframe.io/releases/0.3.0/aframe.min.js"></script>
+    <!-- <script src="https://aframe.io/releases/0.3.0/aframe.min.js"></script> !-->
+    <script src="aframe.js"></script>
   </head>
   <body>
     <a-scene>
@@ -11,7 +12,7 @@
         <img id="house" src="images/Wall.jpg">
         <img id="tin-roof" src="images/tin-roof.jpg">
         <img id="window" src="images/background-texture.jpg">
-        <img id="light_wood" src="images/light_wood.png">
+        <img id="light_wood" src="images/pine-tree-bark.jpg">
         <img id="door" src="images/Door-Village.jpg">
         <img id="green_leaf" src="images/Green-leaves.jpg">
         <img id="daylight" src="images/P8iErUQ.jpg">
@@ -222,9 +223,11 @@
       <a-cylinder src="#light_wood" color="#cc8800" height="0.90" radius="0.30" position="0 9.97 -15.00"></a-cylinder>
     </a-entity>
 
+
+
       <a-sky src="#daylight"></a-sky>
 
-     <a-entity camera="userHeight: 3" look-controls="" position="4 0 -14" rotation="0 -90 0" scale="" visible=""></a-entity>
+     <a-entity camera="userHeight: 3"  look-controls wasd-controls position="4 0 -14" rotation="0 -90 0" scale="" visible=""></a-entity>
     </a-scene>
   </body>
 </html>
