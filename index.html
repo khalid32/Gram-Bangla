@@ -9,6 +9,8 @@
     <a-scene>
       <a-assets>
         <img id="grass" src="images/video_game_grass.jpg">
+        <img id="ground_forest" src="images/GroundForest.jpg">
+        <img id="muddy_surface" src="images/GroundForestMulch.jpg">
         <img id="house" src="images/Wall.jpg">
         <img id="tin-roof" src="images/tin-roof.jpg">
         <img id="rusty-tin" src="images/rusty_tin_texture.jpg">
@@ -24,10 +26,10 @@
 
       <a-entity id="grass_&_river">
         <a-entity id="grass">
-            <a-plane id="grass-1" position="0 -1 0" rotation="-90 0 0" width="20" height="20" src="#grass"></a-plane>
+            <a-plane id="grass-1" position="0 -1 0" rotation="-90 0 0" width="20" height="20" src="#ground_forest"></a-plane>
             <!-- left to right!-->
-            <a-plane id="grass-2" position="20 -1 0" rotation="-90 0 0" width="20" height="20" src="#grass"></a-plane>
-            <a-plane id="grass-3" position="-20 -1 0" rotation="-90 0 0" width="20" height="20" src="#grass"></a-plane>
+            <a-plane id="grass-2" position="20 -1 0" rotation="-90 0 0" width="20" height="20" src="#ground_forest"></a-plane>
+            <a-plane id="grass-3" position="-20 -1 0" rotation="-90 0 0" width="20" height="20" src="#ground_forest"></a-plane>
             <a-plane id="grass-4" position="40 -1 0" rotation="-90 0 0" width="20" height="20" src="#grass"></a-plane>
             <a-plane id="grass-6" position="60 -1 0" rotation="-90 0 0" width="20" height="20" src="#grass"></a-plane>
             <a-plane id="grass-8" position="80 -1 0" rotation="-90 0 0" width="20" height="20" src="#grass"></a-plane>
@@ -35,11 +37,11 @@
             
             <!-- top to bottom!-->
             <a-plane id="grass-12" position="0 -1 20" rotation="-90 0 0" width="20" height="20" src="#grass"></a-plane>
-            <a-plane id="grass-13" position="0 -1 -20" rotation="-90 0 0" width="20" height="20" src="#grass"></a-plane>
+            <a-plane id="grass-13" position="0 -1 -20" rotation="-90 0 0" width="20" height="20" src="#ground_forest"></a-plane>
             <a-plane id="grass-14" position="0 -1 40" rotation="-90 0 0" width="20" height="20" src="#grass"></a-plane>
-            <a-plane id="grass-15" position="0 -1 -40" rotation="-90 0 0" width="20" height="20" src="#grass"></a-plane>
+            <a-plane id="grass-15" position="0 -1 -40" rotation="-90 0 0" width="20" height="20" src="#ground_forest"></a-plane>
             <a-plane id="grass-16" position="0 -1 60" rotation="-90 0 0" width="20" height="20" src="#grass"></a-plane>
-            <a-plane id="grass-17" position="0 -1 -60" rotation="-90 0 0" width="20" height="20" src="#grass"></a-plane>
+            <a-plane id="grass-17" position="0 -1 -60" rotation="-90 0 0" width="20" height="20" src="#ground_forest"></a-plane>
             <a-plane id="grass-18" position="0 -1 80" rotation="-90 0 0" width="20" height="20" src="#grass"></a-plane>  
             <a-plane id="grass-20" position="0 -1 100" rotation="-90 0 0" width="20" height="20" src="#grass" material=""></a-plane>
             
@@ -78,7 +80,7 @@
             <!-- 1st and 3rd quardrant!-->
             <a-plane id="grass-72" position="-20 -1 20" rotation="-90 0 0" width="20" height="20" src="#grass"></a-plane>
     
-            <a-plane id="grass-77" position="20 -1 -20" rotation="-90 0 0" width="20" height="20" src="#grass"></a-plane>
+            <a-plane id="grass-77" position="20 -1 -20" rotation="-90 0 0" width="20" height="20" src="#ground_forest"></a-plane>
             <a-plane id="grass-78" position="40 -1 -20" rotation="-90 0 0" width="20" height="20" src="#grass"></a-plane>
             <a-plane id="grass-79" position="60 -1 -20" rotation="-90 0 0" width="20" height="20" src="#grass"></a-plane>
             <a-plane id="grass-80" position="80 -1 -20" rotation="-90 0 0" width="20" height="20" src="#grass"></a-plane>
@@ -86,7 +88,7 @@
     
             <a-plane id="grass-82" position="-20 -1 40" rotation="-90 0 0" width="20" height="20" src="#grass"></a-plane>
     
-            <a-plane id="grass-87" position="20 -1 -40" rotation="-90 0 0" width="20" height="20" src="#grass"></a-plane>
+            <a-plane id="grass-87" position="20 -1 -40" rotation="-90 0 0" width="20" height="20" src="#ground_forest"></a-plane>
             <a-plane id="grass-88" position="40 -1 -40" rotation="-90 0 0" width="20" height="20" src="#grass"></a-plane>
             <a-plane id="grass-89" position="60 -1 -40" rotation="-90 0 0" width="20" height="20" src="#grass"></a-plane>
             <a-plane id="grass-90" position="80 -1 -40" rotation="-90 0 0" width="20" height="20" src="#grass"></a-plane>
@@ -94,7 +96,7 @@
     
             <a-plane id="grass-92" position="-20 -1 60" rotation="-90 0 0" width="20" height="20" src="#grass"></a-plane>
             
-            <a-plane id="grass-97" position="20 -1 -60" rotation="-90 0 0" width="20" height="20" src="#grass"></a-plane>
+            <a-plane id="grass-97" position="20 -1 -60" rotation="-90 0 0" width="20" height="20" src="#ground_forest"></a-plane>
             <a-plane id="grass-98" position="40 -1 -60" rotation="-90 0 0" width="20" height="20" src="#grass"></a-plane>
             <a-plane id="grass-99" position="60 -1 -60" rotation="-90 0 0" width="20" height="20" src="#grass"></a-plane>
             <a-plane id="grass-100" position="80 -1 -60" rotation="-90 0 0" width="20" height="20" src="#grass"></a-plane>
@@ -102,7 +104,7 @@
     
             <a-plane id="grass-102" position="-20 -1 80" rotation="-90 0 0" width="20" height="20" src="#grass" material=""></a-plane>
             
-            <a-plane id="grass-107" position="20 -1 -80" rotation="-90 0 0" width="20" height="20" src="#grass"></a-plane>
+            <a-plane id="grass-107" position="20 -1 -80" rotation="-90 0 0" width="20" height="20" src="#ground_forest"></a-plane>
             <a-plane id="grass-108" position="40 -1 -80" rotation="-90 0 0" width="20" height="20" src="#grass"></a-plane>
             <a-plane id="grass-109" position="60 -1 -80" rotation="-90 0 0" width="20" height="20" src="#grass"></a-plane>
             <a-plane id="grass-110" position="80 -1 -80" rotation="-90 0 0" width="20" height="20" src="#grass"></a-plane>
@@ -117,12 +119,12 @@
             <!-- 1st and 3rd quardrant!-->
 
             <!-- Recovering edges of the grass!-->
-            <a-plane id="grass-122" position="-12.683 -1.013 -10.445" rotation="-90.012 37.643 0" width="20" height="20" src="#grass" geometry="width:27.74;height:20.4"></a-plane>
-            <a-plane id="grass-123" position="-7.856 -1.013 -22.999" rotation="-90.012 62.968 0" width="20" height="20" src="#grass" geometry="height:20.4;width:30.68"></a-plane>
-            <a-plane id="grass-124" position="7.34 -1.013 -72.759" rotation="-90.012 44.691 0" width="20" height="20" src="#grass" geometry="height:20.4;width:28.1"></a-plane>
-            <a-plane id="grass-125" position="27.297 -1.013 -86.622" rotation="-90.01166961505233 24.465297852086152 0" width="20" height="20" src="#grass" geometry="height:20.4;width:28.1"></a-plane>
-            <a-plane id="grass-126" position="32.529 -1.013 -92.883" rotation="-90.01166961505233 62.85347012585131 0" width="20" height="20" src="#grass" geometry="height:20.4;width:28.1"></a-plane>
-            <a-plane id="grass-127" position="-2.675 -1.013 -43.015" rotation="-90.01166961505233 78.20873903535737 0" width="20" height="20" src="#grass" geometry="height:20.4;width:30.68"></a-plane>
+            <a-plane id="grass-122" position="-12.683 -1.013 -10.445" rotation="-90.012 37.643 0" width="20" height="20" src="#ground_forest" geometry="width:27.74;height:20.4"></a-plane>
+            <a-plane id="grass-123" position="-7.856 -1.013 -22.999" rotation="-90.012 62.968 0" width="20" height="20" src="#ground_forest" geometry="height:20.4;width:30.68"></a-plane>
+            <a-plane id="grass-124" position="7.34 -1.013 -72.759" rotation="-90.012 44.691 0" width="20" height="20" src="#ground_forest" geometry="height:20.4;width:28.1"></a-plane>
+            <a-plane id="grass-125" position="27.297 -1.013 -86.622" rotation="-90.01166961505233 24.465297852086152 0" width="20" height="20" src="#ground_forest" geometry="height:20.4;width:28.1"></a-plane>
+            <a-plane id="grass-126" position="32.529 -1.013 -92.883" rotation="-90.01166961505233 62.85347012585131 0" width="20" height="20" src="#ground_forest" geometry="height:20.4;width:28.1"></a-plane>
+            <a-plane id="grass-127" position="-2.675 -1.013 -43.015" rotation="-90.01166961505233 78.20873903535737 0" width="20" height="20" src="#ground_forest" geometry="height:20.4;width:30.68"></a-plane>
 
             <!-- Recovering edges of the grass!-->
         </a-entity>
@@ -318,7 +320,6 @@
           </a-entity>
           
       </a-entity>
-
 
       <a-sky src="#daylight" color="#81D4FA"></a-sky>
 
