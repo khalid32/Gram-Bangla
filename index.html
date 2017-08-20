@@ -37,7 +37,7 @@
             
             <!-- top to bottom!-->
             <a-plane id="grass-12" position="0 -1 20" rotation="-90 0 0" width="20" height="20" src="#ground_forest"></a-plane>
-            <a-plane id="grass-13" position="0 -1 -20" rotation="-90 0 0" width="20" height="20" src="#muddy_surface"></a-plane>
+            <a-plane id="grass-13" position="0 -1 -20" rotation="-90 0 0" width="20" height="20" src="#ground_forest"></a-plane>
             <a-plane id="grass-14" position="0 -1 40" rotation="-90 0 0" width="20" height="20" src="#ground_forest"></a-plane>
             <a-plane id="grass-15" position="0 -1 -40" rotation="-90 0 0" width="20" height="20" src="#ground_forest"></a-plane>
             <a-plane id="grass-16" position="0 -1 60" rotation="-90 0 0" width="20" height="20" src="#ground_forest"></a-plane>
@@ -80,7 +80,7 @@
             <!-- 1st and 3rd quardrant!-->
             <a-plane id="grass-72" position="-20 -1 20" rotation="-90 0 0" width="20" height="20" src="#ground_forest"></a-plane>
     
-            <a-plane id="grass-77" position="20 -1 -20" rotation="-90 0 0" width="20" height="20" src="#muddy_surface"></a-plane>
+            <a-plane id="grass-77" position="20 -1 -20" rotation="-90 0 0" width="20" height="20" src="#ground_forest"></a-plane>
             <a-plane id="grass-78" position="40 -1 -20" rotation="-90 0 0" width="20" height="20" src="#ground_forest"></a-plane>
             <a-plane id="grass-79" position="60 -1 -20" rotation="-90 0 0" width="20" height="20" src="#ground_forest"></a-plane>
             <a-plane id="grass-80" position="80 -1 -20" rotation="-90 0 0" width="20" height="20" src="#ground_forest"></a-plane>
@@ -234,7 +234,7 @@
         </a-entity>
   
         <a-entity id="Tree" position="14.813 0 -3.828" rotation="0 -64.17 0">
-          <a-cylinder id="tree-1" position="0 0.75 -5" radius="0.5" height="11.5" src="#light_wood" geometry="radius:0.8"></a-cylinder>
+          <a-cylinder id="tree-1" position="0 3.145 -5" radius="0.5" height="11.5" src="#light_wood" geometry="height:8.81;radius:0.8"></a-cylinder>
           <a-cylinder id="tree-2" position="-1 4.75 -5" rotation="0 0 65" radius="0.13" height="2.5" src="#light_wood" geometry="radius:0.3"></a-cylinder>
           <a-cylinder id="tree-3" position="-2.6 6.4 -5" rotation="0 0 25" radius="0.13" height="2.5" src="#light_wood" geometry="radius:0.3"></a-cylinder>
           <a-cylinder id="tree-4" position="-2 6.1 -5" rotation="0 0 -65" radius="0.09" height="0.9" src="#light_wood" geometry="radius:0.18"></a-cylinder>
@@ -250,15 +250,16 @@
           <a-cylinder id="tree-14" position="0.584 -0.972 -4.151" rotation="-16.272001381715377 116.53961552960943 102.04378331279962" radius="0.13" height="2.5" src="#light_wood" geometry="radius:0.15"></a-cylinder>
           <a-cylinder id="tree-15" position="0.793 -0.927 -5.291" rotation="-16.272001381715377 -174.8094232944142 102.04378331279962" radius="0.13" height="2.5" src="#light_wood" geometry="radius:0.15"></a-cylinder>
           <a-cylinder id="tree-16" position="-0.092 -0.927 -5.72" rotation="-16.272001381715377 -80.44327443636757 102.04378331279962" radius="0.13" height="2.5" src="#light_wood" geometry="radius:0.15"></a-cylinder>
-          
+          <a-sphere position="2.147 5.309 -5.009" radius="2.6" src="#light_wood" geometry="radius:0.3" id="tree-17"></a-sphere>
+          <a-sphere position="-2.251 5.32 -4.995" radius="2.6" src="#light_wood" geometry="radius:0.3" id="tree-18"></a-sphere>
+
           <a-sphere position="0 9.25 -6" radius="3" src="#green_leaf"></a-sphere>
           <a-sphere position="3 9.25 -6" radius="2.6" src="#green_leaf"></a-sphere>
           <a-sphere position="3 8 -4.5" radius="1.6" src="#green_leaf"></a-sphere>
           <a-sphere position="-3 9.25 -6" radius="2.6" src="#green_leaf"></a-sphere>
           <a-sphere position="-3 8 -4.5" radius="1.6" src="#green_leaf"></a-sphere>
           <a-sphere position="2 9.66 -6" radius="2.6" src="#green_leaf"></a-sphere>
-          <a-sphere position="-2 9.66 -6" radius="2.6" src="#green_leaf"></a-sphere>
-        </a-entity>
+          <a-sphere position="-2 9.66 -6" radius="2.6" src="#green_leaf"></a-sphere>        </a-entity>
     
         <a-entity id="straw bales" position="18.49 -4.58 -9.60">
           <a-cone src="#straw" height="5" radius-bottom="3" radius-top="1.5" position="0 6 -15"></a-cone>
